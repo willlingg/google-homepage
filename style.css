@@ -26,5 +26,105 @@ a:hover {
 }
 
 .header {
-    
+    height: 50px;
+    margin-top: 20px;
+    min-width: 955px;
 }
+
+.lheader {
+    display: block;
+    margin: auto 0;
+    float: left;
+}
+
+.lheader a {
+    margin-left: 18px;
+}
+
+.rheader {
+    display: block;
+    margin: auto 0;
+    float: right;
+}
+
+.rheader div{
+    margin-left: 20px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: top
+}
+
+.rheader span a {
+    display: inline-block;
+    margin-right: 12px;  
+}
+
+#menu {
+    display: inline-block;
+    position: relative;
+    top: -7px;
+    background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    height: 30px;
+    width: 30px;
+    opacity: .55;
+}
+
+#menu:hover {
+    opacity: .8;
+}
+
+#signin {
+    position: relative;
+    top: -5px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    padding: 6px 12px;
+    color: white;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    background: -moz-linear-gradient(#4387fd, #4683ea);
+    outline: none;
+    margin-right: 15px;
+}
+
+.content {
+    position: static;
+    overflow: hidden;
+    width: 100%;
+    min-width: 980px;
+    min-height: calc(100% - 70px);
+    margin: 0 auto;
+}
+
+#logo {
+    display: block;
+    margin: 109px auto 25px auto;
+}
+
+.search {
+    border: solid 1px rgba(0, 0, 0, 0.16);
+    border-radius: 2px;
+    height: 44px;
+    margin: 7px auto;
+    max-width: 484px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 2px 2px 0;
+    z-index: 28;
+    padding: 1px;
+}
+
+#search {
+    border: none;
+    margin: 0 auto;
+    display: block;
+    width: 459px;
+    height: 42px;
+    padding: 0 15px;
+    font-size: 16px;
+    line-height: 44px;
+    margin-top: -1px;
+    z-index: -255;
+}
+

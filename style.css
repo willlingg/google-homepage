@@ -20,3 +20,11 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    opacity: .85;
+    text-decoration: underline;
+}
+
+.header {
+    
+}
